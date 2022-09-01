@@ -66,6 +66,7 @@ namespace SingletonPattern
 
             singleton4.GetInfo();
             Console.ReadLine();
+
         }
 
         private static void TestDoubleLockSingleton()
