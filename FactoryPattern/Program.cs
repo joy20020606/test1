@@ -38,7 +38,8 @@ namespace FactoryPattern
         private static void TestFactoryMethod()
         {
             Console.WriteLine("工厂方法模式：");
-            IFactoryMethod factoryB =new ConcreateFactoryB();
+            IFactoryMethod factoryB = new ConcreateFactoryB();
+            IFactoryMethod factoryA = new ConcreateFactoryA();
             var productB = factoryB.Create();
             productB.GetInfo();
 
